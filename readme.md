@@ -82,7 +82,7 @@ The $j$ th arrival in a PP occurs at time $T_j \sim \mathrm{Gamma}(j, \lambda)$.
 
 ## Poisson Scatter
 
-A PP can also describe distributions in space! In the script [`poisson-scatter.R`](poisson-scatter.R), we create a count of $N$ raindrops from a Poisson($\lambda D$) distribution, and scatter each of them randomly across a square grid of $D$ cells. The spatial distribution for any raindrop is uniform, but the count of the number of hits in any specific cell follows a Poisson($\lambda$) distribution, in the same way the counts of arrivals in any interval of time in a PP is Poisson distributed.
+A PP can also describe distributions in space! In the script [`poisson-scatter.R`](https://github.com/babeheim/poisson-process-skillshare/blob/main/poisson-scatter.R), we create a count of $N$ raindrops from a Poisson($\lambda D$) distribution, and scatter each of them randomly across a square grid of $D$ cells. The spatial distribution for any raindrop is uniform, but the count of the number of hits in any specific cell follows a Poisson($\lambda$) distribution, in the same way the counts of arrivals in any interval of time in a PP is Poisson distributed.
 
 ![](plot_10.gif)
 
